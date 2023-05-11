@@ -9,5 +9,8 @@
 	"git-blame.gitWebUrl": "",
 	"[markdown]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }

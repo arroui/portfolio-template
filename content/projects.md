@@ -6,14 +6,11 @@ seo:
 ---
 
 ---github
-repositories:
-  - leerob/leerob.io
-  - jxnblk/mdx-deck
-  - vercel/og-image
----
 
+---
+  
 <PageTitle>
-  ### My Open-Source Projects
+  ### Open-Source Contributions
 </PageTitle>
 
 Discover my most popular open-source projects on Github.

@@ -6,7 +6,7 @@
  * Icons from react-icons: https://react-icons.github.io/react-icons
  */
 
-import { IoLogoTwitter, IoLogoInstagram, IoLogoLinkedin } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoLinkedin, IoLogoYoutube } from 'react-icons/io5'
 import { TfiHome, TfiPencilAlt } from 'react-icons/tfi'
 import { SlUser, SlBriefcase, SlEnvolope, SlTrophy } from 'react-icons/sl'
 
@@ -19,25 +19,6 @@ export const menu = [
     name: 'Home',
     slug: '/',
     Icon: TfiHome,
-    number: 1,
-  },
-  {
-    name: 'Home (2)',
-    slug: '/index-2',
-    Icon: TfiHome,
-    number: 2,
-  },
-  {
-    name: 'Home (3)',
-    slug: '/index-3',
-    Icon: TfiHome,
-    number: 3,
-  },
-  {
-    name: 'Home (4)',
-    slug: '/index-4',
-    Icon: TfiHome,
-    number: 4,
   },
   {
     name: 'About',
@@ -73,19 +54,19 @@ export const menu = [
 export const social = [
   {
     name: 'Twitter',
-    url: 'https://www.twitter.com/',
+    url: 'https://twitter.com/ArrouiSid',
     Icon: IoLogoTwitter,
   },
   {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/',
-    Icon: IoLogoInstagram,
-  },
-  {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/ze-technomancer/',
     Icon: IoLogoLinkedin,
   },
+  {
+    name: 'YouTube',
+    url: "https://www.youtube.com/channel/UC-F_1qMxYxacB0tetkSBMGg",
+    Icon: IoLogoYoutube,
+  }
 ]
 
 /**
@@ -133,12 +114,7 @@ export const siteMetaData = {
   siteName: 'Sid Ahmed Arroui',
   defaultTitle: 'Sid Ahmed Arroui Personal Site',
   titleTemplate: 'Sid Ahmed Arroui | %s',
-  description: 'A short description goes here.',
-  email: 'hello@example.com',
+  description: 'Technology Consultant & Developer',
+  email: 'arrouisidahmed@gmail.com',
   locale: 'en_US',
-  twitter: {
-    handle: '@handle',
-    site: '@site',
-    cardType: 'summary_large_image',
-  },
 }

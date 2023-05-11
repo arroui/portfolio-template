@@ -1,7 +1,7 @@
 ---
 layout: Home
 seo:
-  title: Web Developer
+  title: Web & AI Developer
   description: Custom description for this page goes here
 ---
 
@@ -21,15 +21,12 @@ images:
 
 <Sep size={12} />
 
-Sometimes five Imprimaturs are seen together dialogue-wise in the
-piazza of one title-page, complimenting and ducking each to other with
-their shaven reverences, whether the author, who stands by in
-perplexity at the foot of his epistle, shall to the press or to the
-sponge.
+As an independant full-stack developer, I can enhance your team and offer cross-functional technical expertise to help you achieve your goals.
+
 
 ---achievements
 
-- number: 3+
+- number: 4+
   text: Years of experience
 - number: 10+
   text: Projects Completed
@@ -38,25 +35,6 @@ sponge.
 
 ## ---cta
 
-<Button href="/contact" size="lg">
+<Button href="/resume" size="lg">
   Download Resume
 </Button>
-
----companies
-title: Trusted By
-list:
-
-- name: Company 1
-  icon:
-  src: /icons/logo-1.svg
-- name: Company 2
-  icon:
-  src: /icons/logo-3.svg
-- name: Company 3
-  icon:
-  src: /icons/logo-3.svg
-- name: Company 4
-  icon:
-  src: /icons/logo-4.svg
-
----

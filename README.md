@@ -1,6 +1,4 @@
-# EdgeFolio - Next.js Theme
+# Portfolio Template
+This is a portfolio template for a web developer. It is built with Next.js and MDX. It is deployable with vercel. It is also optimized for search engines.
 
-[EdgeFolio](https://elegantstack.netlify.app/edgefolio-demo) - the fully-functional React Next.js Portfolio and Blog Theme for creative professionals. With its sleek design, powerful features, and lightning-fast performance, EdgeFolio will help you take your online presence to the next level. Whether you're a freelancer, a content creator, or a creative professional, this theme has you covered.
-
-- [Live Demo](https://elegantstack.netlify.app/edgefolio-demo)
-- [Documentation](https://elegantstack.netlify.app/edgefolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzetechnomancer%2Fportfolio-template)

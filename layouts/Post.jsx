@@ -9,7 +9,7 @@ import ImageGallery from '@/components/ImageGallery'
 import Sep from '@/components/Sep'
 import Newsletter from '@/components/Newsletter'
 import { siteMetaData } from '../theme.config'
-import authorImage from '../public/author-profile-picture.jpg'
+// import authorImage from '../public/images/author.jpg'
 
 const SocialShare = dynamic(() => import('@/components/SocialShare'))
 
@@ -53,14 +53,14 @@ const Layout = ({
                 By <strong>{authorName}</strong>
               </div>
               <div className="not-prose mx-6 box-content h-24 w-24 overflow-hidden rounded-full border-4 border-alpha bg-alpha">
-                <Image
+                {/* <Image
                   src={authorImage}
                   alt="Picture of the author"
                   animation="fade-in"
                   className="rounded-full object-cover"
                   priority
                   fill
-                />
+                /> */}
               </div>
               <div className="basis-1/3 text-left">
                 <Date date={date} />

@@ -10,9 +10,9 @@ const IntroMessage = () => (
     <h3>
       <em>Stay Tuned</em>
     </h3>
-    <h6>Want to become a Next.js pro?</h6>
+    <h6>Want to become a tech pro?</h6>
     <small>
-      The best articles, links and news related to web development delivered once a week to your
+      The best articles, links and news related to Web, XR and ML delivered once a week to your
       inbox.
     </small>
   </div>
@@ -29,23 +29,6 @@ const SuccessMessage = ({ handleReset }) => (
     <button onClick={() => handleReset()} className="h-5 w-5 hover:bg-omega-900">
       <IoClose className="mx-auto h-4 w-4 text-omega-500" />
     </button>
-  </div>
-)
-
-const Badge = () => (
-  <div>
-    <a
-      className="group h-6 text-omega-400 no-underline"
-      target="_blank"
-      rel="noreferrer"
-      href="https://convertkit.com?lmref=CeGsMw"
-    >
-      <span className="text-xs">BUILT WITH</span>
-      <Icon
-        src="/icons/convertkit.svg"
-        className="ml-2 mb-1 inline h-6 w-24 align-middle group-hover:text-[#FB6970]"
-      />
-    </a>
   </div>
 )
 
@@ -102,7 +85,6 @@ const Newsletter = ({ className }) => {
               disabled={isSubmitting}
               type="text"
               name="email"
-              placeholder="Johndoe@example.com"
               aria-label="email address"
               hasError={errors.email || errors.service}
               {...register('email', {
@@ -126,7 +108,6 @@ const Newsletter = ({ className }) => {
           </Button>
         </form>
       )}
-      <Badge />
     </div>
   )
 }

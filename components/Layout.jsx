@@ -6,17 +6,20 @@ import fonts from '@/styles/fonts'
 
 const Layout = (props) => {
   const { children } = props
-  const [theme, setTheme] = React.useState({})
+  const [theme, setTheme] = React.useState({
+    name: 'cyan',
+    switchBg: 'from-cyan-500 to-purple-500',
+  })
 
   return (
     <div
       className={classNames(
         'dark relative flex min-h-screen w-full justify-center bg-black font-sans lg:px-4 xl:px-8',
-        theme,
+        theme.name,
         ...fonts
       )}
     >
-      <ThemeSwitcher setTheme={setTheme} />
+      {/* <ThemeSwitcher setTheme={setTheme} /> */}
       <div className="fixed bottom-0 left-0 z-50 hidden w-full bg-black md:block lg:h-4 xl:h-8"></div>
       <div className="fixed top-0 left-0 z-50 hidden w-full bg-black md:block lg:h-4 xl:h-8"></div>
       <div className="relative w-full max-w-screen-xl">

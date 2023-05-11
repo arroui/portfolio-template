@@ -1,9 +1,9 @@
 ---
 layout: Blog
-title: Digital Marketing
+title: Marketing
 seo:
-  title: Digital Marketing Articles
-  description: Custom description for this page goes here
+  title: Marketing Articles
+  description: Marketing tactics and technologies used to reach consumers online.
 collection:
   path: /blog
   recordsPerPage: 9

@@ -31,7 +31,7 @@ const ThemeSwitcher = ({ setTheme }) => {
             switchBg,
             'h-5 w-5 origin-right cursor-pointer bg-gradient-to-br transition-all hover:scale-x-150'
           )}
-          onClick={() => setTheme(name)}
+          onClick={() => setTheme({})}
         />
       ))}
     </div>
